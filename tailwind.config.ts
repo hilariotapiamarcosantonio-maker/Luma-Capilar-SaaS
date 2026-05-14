@@ -76,6 +76,20 @@ const config: Config = {
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
       },
+      keyframes: {
+        "slide-in-from-right": {
+          from: { transform: "translateX(100%)", opacity: "0" },
+          to: { transform: "translateX(0)", opacity: "1" },
+        },
+        "slide-in-from-bottom": {
+          from: { transform: "translateY(100%)", opacity: "0" },
+          to: { transform: "translateY(0)", opacity: "1" },
+        },
+      },
+      animation: {
+        "slide-in-from-right": "slide-in-from-right 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94)",
+        "slide-in-from-bottom": "slide-in-from-bottom 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94)",
+      },
     },
   },
   plugins: [require("tailwindcss-animate")],

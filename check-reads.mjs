@@ -10,34 +10,30 @@ async function checkAll() {
       client_email: process.env.GOOGLE_CLIENT_EMAIL,
       private_key: process.env.GOOGLE_PRIVATE_KEY?.replace(/\\n/g, "\n"),
     },
-    scopes: ["https://www.googleapis.com/auth/spreadsheets"],
+    scopes: ["https://www.googleapis.com/auth/spreadsheets.readonly"],
   });
 
   const sheets = google.sheets({ version: "v4", auth });
   const spreadsheetId = process.env.SPREADSHEET_ID;
+  const ranges = [
+    "Inventario_Productos!A1:I20",
+    "Directorio_Clientes!A1:N20",
+    "Ventas_y_Entregas!A1:Y20",
+    "Cuentas_por_Cobrar!A1:R20",
+  ];
 
   try {
-    const dashboard = await sheets.spreadsheets.values.batchGet({
+    const response = await sheets.spreadsheets.values.batchGet({
       spreadsheetId,
-      ranges: ["Dashboard!B4:B4", "Dashboard!E4:E4", "Dashboard!H4:H4", "Dashboard!K4:K4"]
+      ranges,
     });
-    console.log("Dashboard KPIs:", dashboard.data.valueRanges.map(v => v.values?.[0]?.[0]));
 
-    const leads = await sheets.spreadsheets.values.get({ spreadsheetId, range: "Leads!A8:O12" });
-    console.log("Leads encontrados:", leads.data.values?.length || 0);
-
-    const propiedades = await sheets.spreadsheets.values.get({ spreadsheetId, range: "Propiedades!A10:S14" });
-    console.log("Propiedades encontradas:", propiedades.data.values?.length || 0);
-
-    const visitas = await sheets.spreadsheets.values.get({ spreadsheetId, range: "Visitas!A8:H12" });
-    console.log("Visitas encontradas:", visitas.data.values?.length || 0);
-
-    const cierres = await sheets.spreadsheets.values.get({ spreadsheetId, range: "Cierres!A8:J12" });
-    console.log("Cierres encontrados:", cierres.data.values?.length || 0);
-
-    console.log("Todas las hojas respondieron correctamente.");
-  } catch(e) {
-    console.error("Error en validación:", e.message);
+    response.data.valueRanges?.forEach((range) => {
+      console.log(range.range, range.values?.length || 0, "filas");
+    });
+  } catch (error) {
+    console.error("Error en validacion:", error.message);
   }
 }
+
 checkAll();

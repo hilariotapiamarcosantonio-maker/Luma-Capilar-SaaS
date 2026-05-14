@@ -1,107 +1,109 @@
-export interface Lead {
-  id: string;
-  date: string;
-  name: string;
-  email: string;
-  phone: string;
-  source: string;
-  landing: string;
-  opp: string;
-  budget: string;
-  priority: string;
-  status: string;
-  lastContact: string;
-  nextFollowUp: string;
-  agent: string;
-  notes: string;
-  tags: string;
-  result: string;
-  action: string;
-  // Inmobiliaria
-  propIdOfInterest: string;
-  propNameOfInterest: string;
-  clientType: string;
-  opType: string;
-  zoneOfInterest: string;
-  temperature: string;
-  potentialComm: string;
-  pipelineStage: string;
-  probability: string;
-  sourceChannel?: string;
-  campaignName?: string;
-  adSetName?: string;
-  adName?: string;
-  utmSource?: string;
-  utmMedium?: string;
-  utmCampaign?: string;
-  utmContent?: string;
-  utmTerm?: string;
-  landingPage?: string;
-  referrer?: string;
-  clickId?: string;
-  clickIdType?: string;
+// ── Business Config (Pilar 1: Motor de Comisiones) ──────────────────────────
+export interface BusinessConfig {
+  comisionVentaPorcentaje: number;  // e.g. 0.05 = 5%
+  comisionCobroPorcentaje: number;  // e.g. 0.03 = 3%
+  bonoVentaContado: number;         // Fixed bonus per cash sale
+  metaSemanalLineas: number;        // Weekly line target
 }
 
-export interface Property {
-  id: string;
-  ref: string;
-  type: string;
-  operation: string;
-  zone: string;
-  address: string;
-  price: string;
-  currency: string;
-  maintenance: string;
-  beds: string;
-  baths: string;
-  parking: string;
-  m2: string;
-  furnished: string;
-  airbnbReady: string;
-  corp: string;
-  retirement: string;
-  investment: string;
-  status: string;
-  owner: string;
-  expectedComm: string;
-  agent: string;
-  notes: string;
-  img: string;
+export interface CapilarSale {
+  ventaId: string;
+  clienteId: string;
+  fechaRegistro: string;
+  fechaEntrega: string;
+  fechaCobro: string;
+  provincia: string;
+  nombreCliente: string;
+  whatsapp: string;
+  direccion: string;
+  cedula: string;
+  lineaVendida: string;
+  familiaProducto: string;
+  otrosProductos: string;
+  totalVenta: number;
+  pagosPendientes: string;
+  montoAbonado1: number;
+  montoAbonado2: number;
+  totalAbonado: number;
+  montoRestante: number;
+  estadoCobro: string;
+  promotor: string;
+  fuenteArchivo: string;
+  fuenteHoja: string;
+  filaOrigen: string;
+  fuentesConsolidadas: string;
 }
 
-export interface Visit {
-  id: string;
-  date: string;
-  time: string;
-  leadId: string;
-  propId: string;
-  agent: string;
-  status: string;
-  interest: string;
-  comments: string;
-  nextStep: string;
+export interface CapilarClient {
+  clienteId: string;
+  nombreCliente: string;
+  whatsapp: string;
+  cedula: string;
+  provincia: string;
+  direccion: string;
+  promotorPrincipal: string;
+  primeraEntrega: string;
+  ultimaEntrega: string;
+  ventasRegistradas: number;
+  totalCompras: number;
+  totalAbonado: number;
+  saldoPendiente: number;
+  fuentes: string;
 }
 
-export interface Closing {
-  id: string;
-  date: string;
-  leadId: string;
-  propId: string;
-  type: string;
-  price: string;
-  currency: string;
-  commPct: string;
-  commGross: string;
-  status: string;
-  invoiceDate: string;
-  notes: string;
+export interface CapilarProduct {
+  productoId: string;
+  nombreProducto: string;
+  familiaProducto: string;
+  lineaOriginal: string;
+  precioReferencia: number;
+  cantidadDisponible: string;
+  ventasRegistradas: number;
+  fuente: string;
+  notas: string;
 }
 
-export interface DashboardData {
-  totalLeads: number;
-  visitasAgendadas: number;
-  cierresGanados: number;
-  comisionesAcumuladas: string;
-  funnelData: { name: string; value: number; fill: string }[];
-  upcomingVisits: Visit[];
+export interface CapilarReceivable {
+  cxcId: string;
+  ventaId: string;
+  clienteId: string;
+  nombreCliente: string;
+  whatsapp: string;
+  provincia: string;
+  direccion: string;
+  lineaVendida: string;
+  fechaEntrega: string;
+  fechaCobro: string;
+  totalVenta: number;
+  totalAbonado: number;
+  saldoPendiente: number;
+  pagosPendientes: string;
+  estado: string;
+  promotor: string;
+  diasVencido: string;
+  fuente: string;
+}
+
+export interface CapilarDashboardData {
+  totalVentas: number;
+  totalAbonado: number;
+  saldoPendiente: number;
+  clientesActivos: number;
+  ventasRegistradas: number;
+  cuentasPorCobrar: number;
+  lineasVendidas: number;
+  byLinea: { name: string; value: number; fill: string }[];
+  byPromotor: {
+    promotor: string;
+    ventas: number;
+    totalVenta: number;
+    totalAbonado: number;
+    saldoPendiente: number;
+  }[];
+  sales: CapilarSale[];
+  clients: CapilarClient[];
+  products: CapilarProduct[];
+  receivables: CapilarReceivable[];
+  source: "google-sheets" | "local-fallback";
+  config: BusinessConfig;
 }

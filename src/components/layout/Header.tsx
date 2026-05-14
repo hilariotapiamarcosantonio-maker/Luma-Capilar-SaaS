@@ -6,26 +6,24 @@ import { brand } from "@/lib/brand";
 
 const pageTitles: Record<string, string> = {
   "/": "Panel",
-  "/leads": "Leads",
-  "/propiedades": "Propiedades",
-  "/visitas": "Visitas",
-  "/cierres": "Cierres",
-  "/pipeline": "Pipeline",
+  "/admin": "Admin",
+  "/promotor": "Promotor",
+  "/chofer": "Chofer",
+  "/cobrador": "Cobrador",
 };
 
 export function Header({ onMenuClick }: { onMenuClick: () => void }) {
   const pathname = usePathname();
   const title =
     pageTitles[pathname] ||
-    (pathname?.startsWith("/leads/") ? "Detalle de lead" : undefined) ||
-    (pathname?.startsWith("/propiedades/") ? "Ficha de propiedad" : undefined) ||
+    (pathname?.startsWith("/admin/") ? "Detalle de venta" : undefined) ||
     "Panel";
 
   return (
     <header className="flex h-16 shrink-0 items-center gap-3 border-b border-crm-line bg-crm-bg px-4 sm:px-6 lg:px-8">
       <button
         type="button"
-        aria-label="Abrir menú"
+        aria-label="Abrir menu"
         onClick={onMenuClick}
         className="inline-flex h-10 w-10 items-center justify-center rounded-md border border-crm-line bg-crm-surface text-crm-muted transition-colors hover:bg-crm-surface2 hover:text-crm-text lg:hidden"
       >

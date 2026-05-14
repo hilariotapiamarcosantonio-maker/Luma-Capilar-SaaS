@@ -1,108 +1,105 @@
 import Link from "next/link";
-import { Calendar, DollarSign, Target, Users } from "lucide-react";
+import { DollarSign, Package, Users } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { FunnelChart } from "@/components/dashboard/FunnelChart";
 import { PageHeader } from "@/components/layout/PageHeader";
 import { brand } from "@/lib/brand";
-import { getDashboardData } from "@/lib/crm-data/get-dashboard-data";
-import { getLeads } from "@/lib/crm-data/get-leads";
-import { getProperties } from "@/lib/crm-data/get-properties";
+import { formatDop, getCapilarData } from "@/lib/crm-data/get-capilar-data";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
 export default async function PanelPage() {
-  const [data, leads, properties] = await Promise.all([
-    getDashboardData(),
-    getLeads(),
-    getProperties(),
-  ]);
-
-  const leadById = new Map(leads.map((lead) => [lead.id, lead]));
-  const propertyById = new Map(
-    properties.map((property) => [property.id, property])
-  );
+  const data = await getCapilarData();
+  const recentSales = data.sales.slice(0, 8);
 
   return (
     <div className="space-y-6">
       <PageHeader
         title={brand.productName}
-        subtitle="Sistema comercial inmobiliario para captar, medir y cerrar prospectos desde una infraestructura personalizada."
+        subtitle="Base operativa de rutas capilares, lineas vendidas, entregas y cuentas por cobrar."
       />
 
       <Badge
         variant="outline"
         className="border-crm-gold/30 bg-crm-gold/10 text-crm-gold"
       >
-        by {brand.parentBrand} · Workspace {brand.workspaceName}
+        by {brand.parentBrand} - Workspace {brand.workspaceName} -{" "}
+        {data.source === "google-sheets" ? "Google Sheets" : "Fallback local"}
       </Badge>
 
       <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
-        <Link href="/leads" className="block">
+        <Link href="/admin" className="block">
           <Card className="border-crm-line bg-crm-surface transition-colors hover:border-crm-gold/50">
             <CardHeader className="flex flex-row items-center justify-between pb-2">
               <CardTitle className="text-sm font-medium text-crm-muted">
-                TOTAL LEADS
+                VENTAS CONSOLIDADAS
               </CardTitle>
-              <Users className="h-4 w-4 text-crm-blue" />
+              <DollarSign className="h-4 w-4 text-crm-blue" />
             </CardHeader>
             <CardContent>
               <div className="text-2xl font-bold text-crm-text">
-                {data.totalLeads}
+                {formatDop(data.totalVentas)}
               </div>
-              <p className="mt-1 text-xs text-crm-faint">Abrir base comercial</p>
+              <p className="mt-1 text-xs text-crm-faint">
+                {data.ventasRegistradas} ventas registradas
+              </p>
             </CardContent>
           </Card>
         </Link>
 
-        <Link href="/visitas" className="block">
+        <Link href="/cobrador" className="block">
           <Card className="border-crm-line bg-crm-surface transition-colors hover:border-crm-gold/50">
             <CardHeader className="flex flex-row items-center justify-between pb-2">
               <CardTitle className="text-sm font-medium text-crm-muted">
-                VISITAS AGENDADAS
+                SALDO PENDIENTE
               </CardTitle>
-              <Calendar className="h-4 w-4 text-crm-cyan" />
+              <DollarSign className="h-4 w-4 text-crm-cyan" />
             </CardHeader>
             <CardContent>
               <div className="text-2xl font-bold text-crm-text">
-                {data.visitasAgendadas}
+                {formatDop(data.saldoPendiente)}
               </div>
-              <p className="mt-1 text-xs text-crm-faint">Abrir recorridos</p>
+              <p className="mt-1 text-xs text-crm-faint">
+                {data.cuentasPorCobrar} cuentas abiertas
+              </p>
             </CardContent>
           </Card>
         </Link>
 
-        <Link href="/cierres" className="block">
+        <Link href="/promotor" className="block">
           <Card className="border-crm-line bg-crm-surface transition-colors hover:border-crm-gold/50">
             <CardHeader className="flex flex-row items-center justify-between pb-2">
               <CardTitle className="text-sm font-medium text-crm-muted">
-                CIERRES GANADOS
+                CLIENTES
               </CardTitle>
-              <Target className="h-4 w-4 text-crm-green" />
+              <Users className="h-4 w-4 text-crm-green" />
             </CardHeader>
             <CardContent>
               <div className="text-2xl font-bold text-crm-text">
-                {data.cierresGanados}
+                {data.clientesActivos}
               </div>
-              <p className="mt-1 text-xs text-crm-faint">Abrir control financiero</p>
+              <p className="mt-1 text-xs text-crm-faint">Directorio capilar</p>
             </CardContent>
           </Card>
         </Link>
 
-        <Link href="/cierres" className="block">
+        <Link href="/chofer" className="block">
           <Card className="border-crm-line bg-crm-surface transition-colors hover:border-crm-gold/50">
             <CardHeader className="flex flex-row items-center justify-between pb-2">
               <CardTitle className="text-sm font-medium text-crm-muted">
-                COMISIONES
+                LINEAS VENDIDAS
               </CardTitle>
-              <DollarSign className="h-4 w-4 text-crm-gold" />
+              <Package className="h-4 w-4 text-crm-gold" />
             </CardHeader>
             <CardContent>
               <div className="text-2xl font-bold text-crm-gold">
-                {data.comisionesAcumuladas}
+                {data.lineasVendidas}
               </div>
-              <p className="mt-1 text-xs text-crm-faint">Ver cierres asociados</p>
+              <p className="mt-1 text-xs text-crm-faint">
+                Coco, Cacao, Jengibre y mas
+              </p>
             </CardContent>
           </Card>
         </Link>
@@ -112,18 +109,18 @@ export default async function PanelPage() {
         <Card className="border-crm-line bg-crm-surface">
           <CardHeader>
             <CardTitle className="text-base text-crm-text">
-              Embudo de Ventas Inmobiliario
+              Lineas por Volumen
             </CardTitle>
           </CardHeader>
           <CardContent className="h-[300px]">
-            <FunnelChart data={data.funnelData} />
+            <FunnelChart data={data.byLinea} />
           </CardContent>
         </Card>
 
         <Card className="border-crm-line bg-crm-surface">
           <CardHeader>
             <CardTitle className="text-base text-crm-text">
-              Próximas Visitas
+              Ultimas Ventas y Entregas
             </CardTitle>
           </CardHeader>
           <CardContent>
@@ -133,81 +130,136 @@ export default async function PanelPage() {
                   <tr>
                     <th className="px-4 py-3 font-medium">Fecha</th>
                     <th className="px-4 py-3 font-medium">Cliente</th>
-                    <th className="px-4 py-3 font-medium">Propiedad</th>
-                    <th className="px-4 py-3 text-right font-medium">Estatus</th>
+                    <th className="px-4 py-3 font-medium">
+                      Precio por Linea
+                    </th>
+                    <th className="px-4 py-3 font-medium">Promotor</th>
+                    <th className="px-4 py-3 text-right font-medium">
+                      Estatus
+                    </th>
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-crm-line">
-                  {data.upcomingVisits.map((visit) => {
-                    const lead = leadById.get(visit.leadId);
-                    const property = propertyById.get(visit.propId);
-                    const leadName = lead?.name || visit.leadId;
-                    const propertyName =
-                      property?.ref || visit.propId;
-
-                    return (
-                      <tr
-                        key={visit.id}
-                        className="transition-colors hover:bg-crm-bg2"
-                      >
-                        <td className="px-4 py-3 text-crm-faint">
-                          {visit.date}
-                        </td>
-                        <td className="px-4 py-3 font-medium text-crm-text">
-                          {lead ? (
-                            <Link
-                              href={`/leads/${lead.id}`}
-                              className="hover:text-crm-gold"
-                            >
-                              {leadName}
-                            </Link>
-                          ) : (
-                            leadName
-                          )}
-                        </td>
-                        <td className="px-4 py-3 text-crm-gold">
-                          {property ? (
-                            <Link
-                              href={`/propiedades/${property.id}`}
-                              className="hover:underline"
-                            >
-                              {propertyName}
-                            </Link>
-                          ) : (
-                            propertyName
-                          )}
-                        </td>
-                        <td className="px-4 py-3 text-right">
-                          <Badge
-                            variant="outline"
-                            className={
-                              visit.status === "Confirmada" ||
-                              visit.status === "Completada"
-                                ? "border-crm-green text-crm-green"
-                                : visit.status === "Agendada"
-                                  ? "border-crm-blue text-crm-blue"
-                                  : "border-crm-amber text-crm-amber"
-                            }
-                          >
-                            {visit.status}
-                          </Badge>
-                        </td>
-                      </tr>
-                    );
-                  })}
-                  {data.upcomingVisits.length === 0 ? (
+                  {recentSales.map((sale) => (
+                    <tr
+                      key={sale.ventaId}
+                      className="transition-colors hover:bg-crm-bg2"
+                    >
+                      <td className="px-4 py-3 text-crm-faint">
+                        {sale.fechaEntrega || sale.fechaRegistro}
+                      </td>
+                      <td className="px-4 py-3 font-medium text-crm-text">
+                        {sale.nombreCliente}
+                        <div className="text-xs text-crm-faint">
+                          {sale.provincia}
+                        </div>
+                      </td>
+                      <td className="px-4 py-3 text-crm-gold">
+                        {formatDop(sale.totalVenta)}
+                        <div className="text-xs text-crm-faint">
+                          {sale.familiaProducto}
+                        </div>
+                      </td>
+                      <td className="px-4 py-3 text-crm-muted">
+                        {sale.promotor}
+                      </td>
+                      <td className="px-4 py-3 text-right">
+                        <Badge
+                          variant="outline"
+                          className={
+                            sale.montoRestante <= 0
+                              ? "border-crm-green text-crm-green"
+                              : "border-crm-amber text-crm-amber"
+                          }
+                        >
+                          {sale.montoRestante <= 0 ? "Pagada" : "Pendiente"}
+                        </Badge>
+                        {sale.montoRestante > 0 ? (
+                          <div className="mt-1 text-xs text-crm-faint">
+                            Saldo {formatDop(sale.montoRestante)}
+                          </div>
+                        ) : null}
+                      </td>
+                    </tr>
+                  ))}
+                  {recentSales.length === 0 ? (
                     <tr>
                       <td
-                        colSpan={4}
+                        colSpan={5}
                         className="px-4 py-8 text-center text-crm-faint"
                       >
-                        No hay visitas recientes.
+                        No hay ventas cargadas.
                       </td>
                     </tr>
                   ) : null}
                 </tbody>
               </table>
             </div>
+          </CardContent>
+        </Card>
+      </div>
+
+      <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
+        <Card className="border-crm-line bg-crm-surface">
+          <CardHeader>
+            <CardTitle className="text-base text-crm-text">
+              Promotores Principales
+            </CardTitle>
+          </CardHeader>
+          <CardContent className="space-y-3">
+            {data.byPromotor.slice(0, 6).map((item) => (
+              <div
+                key={item.promotor}
+                className="flex items-center justify-between border-b border-crm-line pb-3 last:border-0 last:pb-0"
+              >
+                <div>
+                  <p className="font-medium text-crm-text">{item.promotor}</p>
+                  <p className="text-xs text-crm-faint">{item.ventas} ventas</p>
+                </div>
+                <div className="text-right">
+                  <p className="font-semibold text-crm-gold">
+                    {formatDop(item.totalVenta)}
+                  </p>
+                  <p className="text-xs text-crm-faint">
+                    Saldo {formatDop(item.saldoPendiente)}
+                  </p>
+                </div>
+              </div>
+            ))}
+          </CardContent>
+        </Card>
+
+        <Card className="border-crm-line bg-crm-surface">
+          <CardHeader>
+            <CardTitle className="text-base text-crm-text">
+              Accesos Operativos
+            </CardTitle>
+          </CardHeader>
+          <CardContent className="grid gap-3 sm:grid-cols-2">
+            <Link
+              href="/admin"
+              className="rounded-md border border-crm-line bg-crm-surface2 p-4 text-sm font-medium text-crm-text hover:border-crm-gold/60"
+            >
+              Admin - Ventas_y_Entregas
+            </Link>
+            <Link
+              href="/promotor"
+              className="rounded-md border border-crm-line bg-crm-surface2 p-4 text-sm font-medium text-crm-text hover:border-crm-gold/60"
+            >
+              Promotor - Directorio_Clientes
+            </Link>
+            <Link
+              href="/chofer"
+              className="rounded-md border border-crm-line bg-crm-surface2 p-4 text-sm font-medium text-crm-text hover:border-crm-gold/60"
+            >
+              Chofer - Rutas de entrega
+            </Link>
+            <Link
+              href="/cobrador"
+              className="rounded-md border border-crm-line bg-crm-surface2 p-4 text-sm font-medium text-crm-text hover:border-crm-gold/60"
+            >
+              Cobrador - Cuentas_por_Cobrar
+            </Link>
           </CardContent>
         </Card>
       </div>

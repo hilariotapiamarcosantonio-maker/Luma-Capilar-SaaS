@@ -2,19 +2,17 @@ import { config } from "dotenv";
 import { google } from "googleapis";
 import path from "path";
 
-// Cargar .env.local
 config({ path: path.resolve(process.cwd(), ".env.local") });
 
 async function testConnection() {
-  console.log("Iniciando validación de conexión a Google Sheets...");
+  console.log("Validando conexion a Luma Route OS - DB Capilar...");
 
   const clientEmail = process.env.GOOGLE_CLIENT_EMAIL;
   const privateKey = process.env.GOOGLE_PRIVATE_KEY?.replace(/\\n/g, "\n");
   const spreadsheetId = process.env.SPREADSHEET_ID;
 
   if (!clientEmail || !privateKey || !spreadsheetId) {
-    console.error("❌ ERROR: Faltan variables en .env.local");
-    console.log("Asegúrate de tener SPREADSHEET_ID, GOOGLE_CLIENT_EMAIL, y GOOGLE_PRIVATE_KEY.");
+    console.error("Faltan SPREADSHEET_ID, GOOGLE_CLIENT_EMAIL o GOOGLE_PRIVATE_KEY.");
     process.exit(1);
   }
 
@@ -24,30 +22,19 @@ async function testConnection() {
         client_email: clientEmail,
         private_key: privateKey,
       },
-      scopes: ["https://www.googleapis.com/auth/spreadsheets"],
+      scopes: ["https://www.googleapis.com/auth/spreadsheets.readonly"],
     });
 
     const sheets = google.sheets({ version: "v4", auth });
-
-    console.log("Conectando a la hoja con ID:", spreadsheetId);
-
-    // Test simple: Leer el Dashboard
     const response = await sheets.spreadsheets.values.get({
       spreadsheetId,
-      range: "Dashboard!B4:B4", // Celda de Total Leads
+      range: "Ventas_y_Entregas!A1:Y5",
     });
 
-    if (response.data && response.data.values) {
-      console.log("✅ CONEXIÓN EXITOSA");
-      console.log("📊 Lectura de prueba (Total Leads en Dashboard):", response.data.values[0][0]);
-      console.log("El entorno está listo para validar el frontend en Next.js.");
-    } else {
-      console.log("⚠️ Conexión establecida, pero no se encontraron datos en el rango Dashboard!B4:B4.");
-    }
-
+    console.log("Conexion exitosa.");
+    console.log("Filas de prueba:", response.data.values?.length || 0);
   } catch (error) {
-    console.error("❌ ERROR DE CONEXIÓN A LA API:");
-    console.error(error.message);
+    console.error("Error de conexion:", error.message);
   }
 }
 

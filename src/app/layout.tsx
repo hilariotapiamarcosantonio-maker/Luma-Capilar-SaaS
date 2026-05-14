@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: `${brand.productName} | ${brand.parentBrand}`,
   description:
-    "Sistema comercial inmobiliario para captación, seguimiento, atribución de campañas y cierre de prospectos.",
+    "Sistema comercial para rutas capilares, lineas vendidas, entregas y cuentas por cobrar.",
 };
 
 export default function RootLayout({

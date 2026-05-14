@@ -1,0 +1,282 @@
+﻿cliente_id,nombre_cliente,whatsapp,cedula,provincia,direccion,promotor_principal,primera_entrega,ultima_entrega,ventas_registradas,total_compras,total_abonado,saldo_pendiente,fuentes
+CLI-00001,Deurys Arias,8294397422,0011654601,LA ROMANA,Viva jumbo,Grissell A.,2023-07-18,2023-07-18,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R21
+CLI-00002,Natiana Meneia,809-903-7416,001-1702403-4,HIGUEY,Casa de cambio Quezada,Rances Ivan,2023-07-05,2023-07-05,1,3800.0,2000.0,1800.0,Registro de ventas.xlsx::Respuestas de formulario 1#R221
+CLI-00003,Karen Luperon,809-393-5290,001-1916925-8,HIGUEY,Carnes y pescados Mar y Tierra,Rances Ivan,2023-07-05,2023-07-05,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R217
+CLI-00004,Alexa Cedano Padua,8298981439,00260093007,HIGUEY,Tienda de Ropa,Rances Ivan,2023-08-30,2023-08-30,1,4500.0,500.0,4000.0,Registro de ventas.xlsx::Respuestas de formulario 1#R95
+CLI-00005,Julian Jhamil Gomez,8093617856,0040241402,BAVARO,Barberia plaza Boulevard Center,Rances Ivan,2023-08-17,2023-08-17,1,4500.0,1500.0,3000.0,Registro de ventas.xlsx::Respuestas de formulario 1#R84
+CLI-00006,Josebh Rodjino,809-618-3592,004-478805-0,HIGUEY,Banca Loteka,Rances Ivan,2023-07-05,2023-07-05,1,4500.0,2000.0,2500.0,Registro de ventas.xlsx::Respuestas de formulario 1#R227
+CLI-00007,Aqueda Peña,829-562-5679,023-0078561-1,SAN PEDRO DE MACORIS,Aparta Hotel Carmen,Rances Ivan,2023-07-03,2023-07-03,1,4500.0,0.0,4500.0,Registro de ventas.xlsx::Respuestas de formulario 1#R155
+CLI-00008,Lissette Rodriguez,829-848-1979,023-0115027-8,SAN PEDRO DE MACORIS,Salon,Rachell Ivette,2023-07-03,2023-07-03,1,4500.0,0.0,4500.0,Registro de ventas.xlsx::Respuestas de formulario 1#R130
+CLI-00009,Marleni Martes,849-918-4734,023-0116532-6,SAN PEDRO DE MACORIS,LOTEKA,Rances Ivan,2023-07-03,2023-07-03,1,4500.0,3000.0,1500.0,Registro de ventas.xlsx::Respuestas de formulario 1#R156
+CLI-00010,Heidy Camarena,809-993-1037,023-0125777-6,SAN PEDRO DE MACORIS,Planta de Agua,Rachell Ivette,2023-07-03,2023-07-03,1,4500.0,0.0,4500.0,Registro de ventas.xlsx::Respuestas de formulario 1#R141
+CLI-00011,Yohanna Manzano,829-934-8182,023-0131489-0,SAN PEDRO DE MACORIS,Supermercado Baratillo,Rances Ivan,2023-07-03,2023-07-03,1,3800.0,3800.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R134
+CLI-00012,Riquelmi Gil,809-668-2360,023-0134361-8,FRIUSA,Cedeño Tecnologi Plaza larimar,Rances Ivan,2023-07-06,2023-07-06,1,4500.0,2500.0,2000.0,Registro de ventas.xlsx::Respuestas de formulario 1#R253
+CLI-00013,Hilda De Leon,849-637-5746,023-01436529,SAN PEDRO DE MACORIS,Routhsan Travel,Rances Ivan,2023-07-03,2023-07-03,1,4200.0,2000.0,2200.0,Registro de ventas.xlsx::Respuestas de formulario 1#R136
+CLI-00014,Maite cuevas,8096617250,02301619686,HIGUEY,Banca,Rachell Ivette,2023-08-02,2023-08-02,1,4200.0,3300.0,900.0,Registro de ventas.xlsx::Respuestas de formulario 1#R50
+CLI-00015,Raisa Ortiz,8093984612,02301683623,SAN PEDRO DE MACORIS,Rafa PC,Rachell Ivette,2023-09-04,2023-09-04,1,3000.0,1500.0,1500.0,Registro de ventas.xlsx::Respuestas de formulario 1#R108
+CLI-00016,Yesika Montero,849-277-3125,023-0170962-8,SAN PEDRO DE MACORIS,Heladeria BON,Rances Ivan,2023-07-03,2023-07-03,1,3800.0,0.0,3800.0,Registro de ventas.xlsx::Respuestas de formulario 1#R149
+CLI-00017,Carina Veras,8094558877,02500008715,HIGUEY,Gestora de Empleos,Rachell Ivette,2023-09-06,2023-09-06,1,4500.0,0.0,4500.0,Registro de ventas.xlsx::Respuestas de formulario 1#R125
+CLI-00018,Rosidalia,809-837-5982,025-8007724-0,PUNTA CANA,Colmado Frente a Plaza San Juan,Rances Ivan,2023-07-07,2023-07-07,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R265
+CLI-00019,Israel peoncis,8092159609,02600540609,LA ROMANA,GYM,Rachell Ivette,2023-08-15,2023-08-15,1,4200.0,1500.0,2700.0,Registro de ventas.xlsx::Respuestas de formulario 1#R63
+CLI-00020,Genara nuñez,8296554143,02600688374,LA ROMANA,,Grissell A.,2023-07-18,2023-07-18,1,4500.0,0.0,4500.0,Registro de ventas.xlsx::Respuestas de formulario 1#R19
+CLI-00021,Yocasta Díaz,8099828604,02600896548,LA ROMANA,Cafetería,Rances Ivan,2023-09-04,2023-09-04,1,4500.0,0.0,4500.0,Registro de ventas.xlsx::Respuestas de formulario 1#R117
+CLI-00022,Iris Rodriguez,809-721-8025,026-0094484-3,LA ROMANA,C/Santarosa Puesto de Empanadas,Rachell Ivette,2023-07-04,2023-07-04,1,3800.0,3800.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R172
+CLI-00023,Elizabeth Jean,8292513429,02601238864,LA ROMANA,Hotel muñeca,Rances Ivan,2023-08-15,2023-08-15,1,4500.0,1500.0,3000.0,Registro de ventas.xlsx::Respuestas de formulario 1#R72
+CLI-00024,Nicol Rodriguez,829-668-6461,026-0127697-1,LA ROMANA,C/ Gregorio Luperon Tienda de Paca,Rances Ivan,2023-07-04,2023-07-04,1,3800.0,1400.0,2400.0,Registro de ventas.xlsx::Respuestas de formulario 1#R177
+CLI-00025,Jennifer Galvez,809764 2471,02601382910,LA ROMANA,Party Fiesta jumbo,Rachell Ivette,2023-07-18,2023-07-18,1,4500.0,1500.0,3000.0,Registro de ventas.xlsx::Respuestas de formulario 1#R18
+CLI-00026,Elizabet peguero,8492513429,026014770882,LA ROMANA,Salón,Rances Ivan,2023-09-19,2023-09-19,1,4500.0,2000.0,2500.0,Registro de ventas.xlsx::Respuestas de formulario 1#R71
+CLI-00027,Maria Isabel Ubier,809-282-1275,026-2114758-6,LA ROMANA,Cafeteri Mi Empanada frebte A cristo viene,Rances Ivan,2023-07-04,2023-07-04,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R180
+CLI-00028,Isabel García,8292013007,02700170216,HIGUEY,C/ Juan Pablo Duarte,Rances Ivan,2023-09-06,2023-09-06,1,4500.0,0.0,4500.0,Registro de ventas.xlsx::Respuestas de formulario 1#R124
+CLI-00029,Fermina Álvarez,8098790962,02800005791,HIGUEY,Tienda celulares,Rachell Ivette,2023-08-02,2023-08-02,1,4500.0,1500.0,3000.0,Registro de ventas.xlsx::Respuestas de formulario 1#R52
+CLI-00030,Alba Espiritu Santo,829-613-2445,028-0043663-0,HIGUEY,Tienda de Ropa,Rachell Ivette,2023-07-05,2023-07-05,1,3800.0,3800.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R229
+CLI-00031,Yuliza Martínez,8097875787,02800507515,HIGUEY,C/ los Cerros Salón,Rances Ivan,2023-08-16,2023-08-16,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R76
+CLI-00032,Isaura guerrero,8293519001,02800955524,PUNTA CANA,Tienda de paca,Rances Ivan,2023-08-17,2023-08-17,1,4500.0,1000.0,3500.0,Registro de ventas.xlsx::Respuestas de formulario 1#R82
+CLI-00033,Esther Encarnacion,829-678-0878,028-0106836-8,FRIUSA,Food Shop,Rances Ivan,2023-07-06,2023-07-06,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R251
+CLI-00034,Marianny Avida,849-471-1646,028-0113046-5,PUNTA CANA,Plaza Village,Rachell Ivette,2023-07-07,2023-07-07,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R273
+CLI-00035,Juana Milly,829-492-9933,029-0007470-5,HIGUEY,Molina HOTEL,Grissell A.,2023-07-05,2023-07-05,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R209
+CLI-00036,Luisa Maria Nolasco,829-474-4023,030-0007233-4,LA ROMANA,VIMENCA Jumbo,Grissell A.,2023-07-04,2023-07-04,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R176
+CLI-00037,Rosa Paulino,8298570027,03105200079,BAVARO,Bordados,Rachell Ivette,2023-07-20,2023-07-20,1,5100.0,5100.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R31
+CLI-00038,Rocio Ceballos,8093929112,03105337691,HIGUEY,Gogo sports,Rachell Ivette,2023-07-19,2023-07-19,1,6300.0,6300.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R35
+CLI-00039,Angela Rodriguez Lopez,8493590387,03600410827,BAVARO,HOMS,Grissell A.,2023-07-20,2023-07-20,1,3800.0,3800.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R36
+CLI-00040,Dayda Almonte,8292503243,0370053636-4,BAVARO,Los corales,Rances Ivan,2023-07-20,2023-08-04,2,9000.0,3000.0,6000.0,Registro de ventas.xlsx::Respuestas de formulario 1#R28; Registro de ventas.xlsx::Respuestas de formulario 1#R56
+CLI-00041,Caterin Mercedes,809-759-8854,047-02137318,PUNTA CANA,Vimenca,Rachell Ivette,2023-07-07,2023-07-07,1,4500.0,2000.0,2500.0,Registro de ventas.xlsx::Respuestas de formulario 1#R272
+CLI-00042,Ibelise Peralta,8095093367,05300291001,SAN PEDRO DE MACORIS,Banca LOTEKA,Rances Ivan,2023-07-31,2023-07-31,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R40
+CLI-00043,Noemy Gil,809-729-3606,060-0013349-2,HIGUEY,C/ Villa Cerro/ Nails Bar Darelin Charlotte,Rances Ivan,2023-07-05,2023-07-05,1,4200.0,2100.0,2100.0,Registro de ventas.xlsx::Respuestas de formulario 1#R202
+CLI-00044,Fabia Medina,8494670192,06000197340,PUNTA CANA,Comedor,Rances Ivan,2023-08-04,2023-08-04,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R57
+CLI-00045,Celeste frías,8098291206,07100437347,PUNTA CANA,Felo muebles,Rachell Ivette,2023-08-17,2023-08-17,1,3500.0,0.0,3500.0,Registro de ventas.xlsx::Respuestas de formulario 1#R79
+CLI-00046,Malael Baez,829-680-3589,123-0011747-8,SAN PEDRO DE MACORIS,CLARO,Rachell Ivette,2023-07-03,2023-07-03,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R152
+CLI-00047,Angeline Jerone,8098400984,1354669314,LA ROMANA,Pica pollo,Rachell Ivette,2023-07-18,2023-07-18,1,4500.0,2500.0,2000.0,Registro de ventas.xlsx::Respuestas de formulario 1#R15
+CLI-00048,Yliana Vera,849 869-6087,14 98477 44,LA ROMANA,Sira Dental,Rachell Ivette,2023-07-18,2023-07-18,1,4500.0,3000.0,1500.0,Registro de ventas.xlsx::Respuestas de formulario 1#R14
+CLI-00049,Katiana Diaz Mota,829-654-3794,223-0009933-8,LA ROMANA,C/Villa Verde,Rances Ivan,2023-07-04,2023-07-04,1,3800.0,3300.0,500.0,Registro de ventas.xlsx::Respuestas de formulario 1#R185
+CLI-00050,Andrea Sanchez,809-457-3634,223-0044951-3,FRIUSA,Plaza Italia,Rances Ivan,2023-07-06,2023-07-06,1,4500.0,0.0,4500.0,Registro de ventas.xlsx::Respuestas de formulario 1#R250
+CLI-00051,Noemy Severino,809-201-3289,402-0096158-5,HIGUEY,C/ Las Carreras Pacas Yossiel,Rachell Ivette,2023-07-05,2023-07-05,1,4500.0,3000.0,1500.0,Registro de ventas.xlsx::Respuestas de formulario 1#R204
+CLI-00052,Yosmeilyn Constanzo,829-837-6339,402-0176097-8,HIGUEY,Uñas Veivet,Rachell Ivette,2023-07-05,2023-07-05,1,3000.0,3000.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R215
+CLI-00053,Alejandra García,8296622745,4020985293,LA ROMANA,C/ Teniente Amado,Rances Ivan,2023-08-29,2023-08-29,1,4500.0,0.0,4500.0,Registro de ventas.xlsx::Respuestas de formulario 1#R88
+CLI-00054,Ruthdeylin Santana,8492857186,40209910013,SAN PEDRO DE MACORIS,Punta Pescadora,Rances Ivan,2023-09-04,2023-09-04,1,4500.0,1500.0,3000.0,Registro de ventas.xlsx::Respuestas de formulario 1#R111
+CLI-00055,Katherine Sanchez,8493732274,40210093965,LA ROMANA,Pica piedra,Rances Ivan,2023-08-15,2023-08-15,1,4500.0,3000.0,1500.0,Registro de ventas.xlsx::Respuestas de formulario 1#R70
+CLI-00056,Meyelin Morla,8094993445,40210333204,HIGUEY,MyS Motoprestamos,Grissell A.,2023-07-19,2023-07-19,1,3800.0,3800.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R25
+CLI-00057,Brailyn nuñez,8097592641,40210859274,HIGUEY,Tienda Celulares,Rachell Ivette,2023-08-02,2023-08-02,1,3500.0,3500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R51
+CLI-00058,Channel Meyvi Belen,8098869289,40211283862,SAN PEDRO DE MACORIS,Boutique frente al monumento,Rances Ivan,2023-07-17,2023-07-17,1,4500.0,0.0,4500.0,Registro de ventas.xlsx::Respuestas de formulario 1#R6
+CLI-00059,Nicole Nuñez,8294781528,40211500182,LA ROMANA,Restaurante,Rances Ivan,2023-09-05,2023-09-05,1,4500.0,1500.0,3000.0,Registro de ventas.xlsx::Respuestas de formulario 1#R115
+CLI-00060,Josefina Santana,8297446386,402115056652,BAVARO,Los corales centro de Masages,Rances Ivan,2023-07-20,2023-07-20,1,4500.0,600.0,3900.0,Registro de ventas.xlsx::Respuestas de formulario 1#R27
+CLI-00061,Marlín Grullon,8292469236,40211913724,LA ROMANA,Carwash Center Auto,Grissell A.,2023-07-18,2023-07-18,1,4500.0,2000.0,2500.0,Registro de ventas.xlsx::Respuestas de formulario 1#R20
+CLI-00062,Massiell Ventura,8096357633,40212117838,LA ROMANA,,Rachell Ivette,2023-08-15,2023-08-15,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R64
+CLI-00063,Shakira Báez,8094342257,40212166827,LA ROMANA,Sira Dental c/ Eugenio A. Miranda,Rachell Ivette,2023-07-18,2023-07-18,1,4500.0,3000.0,1500.0,Registro de ventas.xlsx::Respuestas de formulario 1#R16
+CLI-00064,Elaine nuñez,8098626596,40212557747,SAN PEDRO DE MACORIS,Restaurante Loren D Pasta,Rances Ivan,2033-07-31,2033-07-31,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R39
+CLI-00065,Madelin Fulcar,8298793463,40212685115,HIGUEY,Viamar,Rachell Ivette,2023-07-19,2023-07-19,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R23
+CLI-00066,Tiara Aquino,829-327-0056,402-12724376,PUNTA CANA,Woment Secret,Rachell Ivette,2023-07-07,2023-07-07,1,3500.0,1000.0,2500.0,Registro de ventas.xlsx::Respuestas de formulario 1#R278
+CLI-00067,Thalina Martes,829-672-4041,402-12922753-3,FRIUSA,Queen Beauty Plaza Iberia,Rances Ivan,2023-07-06,2023-07-06,1,4500.0,0.0,4500.0,Registro de ventas.xlsx::Respuestas de formulario 1#R246
+CLI-00068,Angely Caraballo,849-285-3831,402-1328620-2,LA ROMANA,Plaza Zorry / Consultorio,Rances Ivan,2023-07-04,2023-07-04,1,3800.0,1900.0,1900.0,Registro de ventas.xlsx::Respuestas de formulario 1#R190
+CLI-00069,Marielys Luz Cedano,849-653-2806,402-13478643,LA ROMANA,Detras de Multy Plaza,Rachell Ivette,2023-07-04,2023-07-04,1,4500.0,0.0,4500.0,Registro de ventas.xlsx::Respuestas de formulario 1#R179
+CLI-00070,Yoandry Peralta,809-671-7801,402-1366701-3,HIGUEY,C/ La Malena little pizza,Rances Ivan,2023-07-05,2023-07-05,1,3800.0,2000.0,1800.0,Registro de ventas.xlsx::Respuestas de formulario 1#R218
+CLI-00071,Gardemia Mercedes,849-711-0314,402-1435154-2,SAN PEDRO DE MACORIS,Odontologia Cerilab,Rances Ivan,2023-07-03,2023-07-03,1,3800.0,3800.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R146
+CLI-00072,Melany Rubi,849-250-3321,402-1474060-3,HIGUEY,Rico Hot Dog,Rances Ivan,2023-07-05,2023-07-05,1,4500.0,0.0,4500.0,Registro de ventas.xlsx::Respuestas de formulario 1#R203
+CLI-00073,Kelsy Henrrique,809-391-0035,402-1489503-5,PUNTA CANA,Blue Mall Locutane,Rachell Ivette,2023-07-07,2023-07-07,1,3800.0,2500.0,1300.0,Registro de ventas.xlsx::Respuestas de formulario 1#R281
+CLI-00074,Meriand R.,8296844708,40214902484,SAN PEDRO DE MACORIS,Reality city Plaza,Rances Ivan,2023-09-18,2023-09-18,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R61
+CLI-00075,Sabrina Cedeño,8295374819,40215179215,SAN PEDRO DE MACORIS,Electro Capellán,Rances Ivan,2023-08-14,2023-08-14,1,3500.0,3500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R62
+CLI-00076,Joenny peña,829-949-5590,402-1543502-1,LA ROMANA,La Romana Villa San Carlos,Rances Ivan,2023-07-18,2023-07-18,1,4500.0,4000.0,500.0,Registro de ventas.xlsx::Respuestas de formulario 1#R11
+CLI-00077,Victoria Frias,829-653-9565,402-1566446-3,FRIUSA,Luxury Bomba,Rachell Ivette,2023-07-06,2023-07-06,1,3800.0,3800.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R245
+CLI-00078,Breisy Arlet,809-402-1768,402-1582013-1,LA ROMANA,Cafeteria Comedor TITA /Fente a Junta Central,Rances Ivan,2023-07-04,2023-07-04,1,3800.0,0.0,3800.0,Registro de ventas.xlsx::Respuestas de formulario 1#R191
+CLI-00079,Peggy Pequero,809-865-7641,402-18211-8,PUNTA CANA,"Farmacia Carol, Plaza San Juan",Rachell Ivette,2023-07-07,2023-07-07,1,3800.0,3800.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R256
+CLI-00080,Hilary Batista,8285024984,40218455091,HIGUEY,El Frutal C/ La Otra Vanda,Rachell Ivette,2023-08-31,2023-08-31,1,4500.0,1500.0,3000.0,Registro de ventas.xlsx::Respuestas de formulario 1#R107
+CLI-00081,Emilio Quezada,829-785-3362,402-1858208-8,FRIUSA,Barberia Gran plaza friuza,Rances Ivan,2023-07-06,2023-07-06,1,4500.0,1000.0,3500.0,Registro de ventas.xlsx::Respuestas de formulario 1#R239
+CLI-00082,Elizabeth Fosten,8296850119,40219182918,SAN PEDRO DE MACORIS,BJ todo Alquiler y Eventos C/ Avenida Alberto camaño,Rachell Ivette,2023-07-17,2023-07-17,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R2
+CLI-00083,Luz González,8294314933,4021980 33184,SAN PEDRO DE MACORIS,Barra Payan,Grissell A.,2023-07-17,2023-07-17,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R7
+CLI-00084,Aruin Mejia,829-675-9563,402-1997821-6,SAN PEDRO DE MACORIS,Tienda Variedades Lusilandia,Rachell Ivette,2023-07-03,2023-07-03,1,3800.0,3800.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R153
+CLI-00085,Cristy Bone,809-445-5583,402-2076479-5,SAN PEDRO DE MACORIS,Helados BON,Rances Ivan,2023-07-03,2023-07-03,1,4500.0,0.0,4500.0,Registro de ventas.xlsx::Respuestas de formulario 1#R150
+CLI-00086,Franchesca Frías,8097190858,40220944413,LA ROMANA,C/ B de marzo,Rances Ivan,2023-09-05,2023-09-05,1,4500.0,0.0,4500.0,Registro de ventas.xlsx::Respuestas de formulario 1#R116
+CLI-00087,Rossy de la Rosa,8294914317,4022103381,HIGUEY,"Fiscalía Niño, Niña y Adolescentes",Rachell Ivette,2023-07-19,2023-07-19,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R22
+CLI-00088,Yelissa Cruz,8092657059,40222705416,LA ROMANA,Salón c/ maria montes,Rances Ivan,2023-08-15,2023-08-15,1,3500.0,800.0,2700.0,Registro de ventas.xlsx::Respuestas de formulario 1#R73
+CLI-00089,Helen Ozuna,829-227-8416,402-2358362-2,SAN PEDRO DE MACORIS,Banca LOTEKA,Rances Ivan,2023-07-03,2023-07-03,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R145
+CLI-00090,Bianca Martínez,8299382710,40223739802,BAVARO,Plaza internacional Boutique,Rachell Ivette,2023-07-20,2023-07-20,1,3800.0,3800.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R32
+CLI-00091,Clara Inez,809-819-2164,402-2389948-1,LA ROMANA,Licoreria Suplidom,Rachell Ivette,2023-07-04,2023-07-04,1,4500.0,2000.0,2500.0,Registro de ventas.xlsx::Respuestas de formulario 1#R192
+CLI-00092,Estefania Cedeño,829-252-6929,402-241069-7,HIGUEY,Casa de cambio Quezada,Rances Ivan,2023-07-05,2023-07-05,1,3800.0,1500.0,2300.0,Registro de ventas.xlsx::Respuestas de formulario 1#R213
+CLI-00093,Masiel Rodriguez,849-935-2320,402-2415584-2,PUNTA CANA,Sunny Kids Blue Mall,Rachell Ivette,2023-07-07,2023-07-07,1,3500.0,3000.0,500.0,Registro de ventas.xlsx::Respuestas de formulario 1#R266
+CLI-00094,Nelly Maldonado,809-214-4726,402-242140-2,HIGUEY,Tienda la Florida,Rachell Ivette,2023-07-05,2023-07-05,1,4500.0,2500.0,2000.0,Registro de ventas.xlsx::Respuestas de formulario 1#R228
+CLI-00095,Angelica Rodriguez,8298388008,4022440321-8,BAVARO,Centro de Masages c/ los corales,Rances Ivan,2023-07-20,2023-07-20,1,4500.0,600.0,3900.0,Registro de ventas.xlsx::Respuestas de formulario 1#R26
+CLI-00096,Erasmo Quezada,809-861-9198,402-2507677-3,FRIUSA,Peluqueria,Rances Ivan,2023-07-06,2023-07-07,2,9000.0,5500.0,3500.0,Registro de ventas.xlsx::Respuestas de formulario 1#R243; Registro de ventas.xlsx::Respuestas de formulario 1#R269
+CLI-00097,Pablo Romero Gil,849-639-4540,402-2534375-1,SAN PEDRO DE MACORIS,Heladeria C/Francisco c. Deño,Rances Ivan,2023-07-03,2023-07-03,1,4500.0,2000.0,2500.0,Registro de ventas.xlsx::Respuestas de formulario 1#R148
+CLI-00098,Flor Alba Silverio,809-999-1877,402-2549204-6,SAN PEDRO DE MACORIS,Papeleria,Rances Ivan,2023-07-03,2023-07-03,1,3800.0,3800.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R147
+CLI-00099,Garielis Francisco Cruz,849-631-0667,402-2571657-6,LA ROMANA,Repuesto,Rances Ivan,2023-07-04,2023-07-04,1,3800.0,3800.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R183
+CLI-00100,Estefani Alondra,829-388-0559,402-2596781-5,SAN PEDRO DE MACORIS,Auto Sonido MYM,Rances Ivan,2023-07-03,2023-07-03,1,3800.0,3800.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R131
+CLI-00101,Cinthia Ortiz,8492010896,40226228571,SAN PEDRO DE MACORIS,Banca Star Sports,Rances Ivan,2023-07-17,2023-07-17,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R4
+CLI-00102,Haydee cabrera,8092602126,40226521082,LA ROMANA,Santa Rosa,Rances Ivan,2023-07-18,2023-07-18,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R13
+CLI-00103,Maria Morel,829-669-8245,402-2667020-2,PUNTA CANA,Plaza Cana Town,Grissell A.,2023-07-07,2023-07-07,1,3800.0,1200.0,2600.0,Registro de ventas.xlsx::Respuestas de formulario 1#R282
+CLI-00104,Marcia marino,802-451-8918,402-2724631-1,PUNTA CANA,Plaza Casino Platinum 777,Grissell A.,2023-07-07,2023-07-07,1,4500.0,1000.0,3500.0,Registro de ventas.xlsx::Respuestas de formulario 1#R270
+CLI-00105,Madelyn Vazquez,809-298-5418,402-2760431-7,HIGUEY,Ofi. Arquitectos y A grimensores,Rances Ivan,2023-07-05,2023-07-05,1,4500.0,1500.0,3000.0,Registro de ventas.xlsx::Respuestas de formulario 1#R212
+CLI-00106,Alison mejia,8498032889,40228733453,LA ROMANA,Villa verde,Rances Ivan,2023-07-18,2023-08-01,2,9000.0,9000.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R10; Registro de ventas.xlsx::Respuestas de formulario 1#R44
+CLI-00107,Juana Mercedes,8096660357,40228816399,LA ROMANA,Bufete Abogados,Rances Ivan,2023-09-05,2023-09-05,1,4500.0,1000.0,3500.0,Registro de ventas.xlsx::Respuestas de formulario 1#R114
+CLI-00108,Veronica Berroa Reyes,809-506-4169,402-2884092-8,LA ROMANA,Panificadora C/ villa hermosa,Rances Ivan,2023-07-04,2023-07-04,1,3800.0,3800.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R181
+CLI-00109,Yohany Sanetlis,849-454-7466,402-2888005-6,HIGUEY,Tienda de cabello Prox. HOTEL COQUI,Rachell Ivette,2023-07-05,2023-07-05,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R223
+CLI-00110,Maggie Santana,849-286-5211,402-2902721-0,LA ROMANA,Banca Juancito Sport Plaza Sajoma III,Rances Ivan,2023-07-04,2023-07-04,1,3800.0,3800.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R162
+CLI-00111,Sabrina Caraballo,829-983-0937,402-2905420-6,LA ROMANA,Cachapa Venezolana,Rachell Ivette,2023-07-04,2023-07-04,1,3800.0,3800.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R164
+CLI-00112,Mayelin castillo,8299040891,40230903680,HIGUEY,Salón,Rances Ivan,2023-09-06,2023-09-06,1,4500.0,1100.0,3400.0,Registro de ventas.xlsx::Respuestas de formulario 1#R122
+CLI-00113,Fralyn Leonardo,829-703-9135,402-3134387-2,HIGUEY,El patio de Pepe BAR,Rachell Ivette,2023-07-05,2023-07-05,1,3700.0,0.0,3700.0,Registro de ventas.xlsx::Respuestas de formulario 1#R210
+CLI-00114,Wilmer flores,809-836-8405,402-3135132-7,LA ROMANA,Villa hermosa,Rances Ivan,2023-07-18,2023-07-18,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R12
+CLI-00115,Katty Felix,8497539335,40231396793,LA ROMANA,Burguer king jumbo,Rachell Ivette,2023-08-15,2023-08-15,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R65
+CLI-00116,Lisett Celestino,829-418-4595,402-3151573-1,LA ROMANA,C/ Santa Rosa./ Cafeteria.,Rances Ivan,2023-07-04,2023-07-04,1,3800.0,2000.0,1800.0,Registro de ventas.xlsx::Respuestas de formulario 1#R189
+CLI-00117,Ninoska Núñez,8298940519,40231831856,PUNTA CANA,Felo muebles,Rachell Ivette,2023-08-17,2023-08-17,1,4500.0,2500.0,2000.0,Registro de ventas.xlsx::Respuestas de formulario 1#R78
+CLI-00118,Miledy frías,8492683913,40232199566,LA ROMANA,Salón,Rances Ivan,2023-08-01,2023-08-01,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R43
+CLI-00119,Nileydi de Frias Herrera,8492683913,40232199568,LA ROMANA,Santa Rosa salón nayda y raysa,Rances Ivan,2023-07-18,2023-07-18,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R9
+CLI-00120,Iraida Guerrero,8095436476,40232201921,LA ROMANA,La Bermúdez #32,Rances Ivan,2023-08-15,2023-08-15,1,4500.0,1500.0,3000.0,Registro de ventas.xlsx::Respuestas de formulario 1#R69
+CLI-00121,Fernando,8294544715,40232293668,LA ROMANA,GYM,Rachell Ivette,2023-09-19,2023-09-19,1,4500.0,1900.0,2600.0,Registro de ventas.xlsx::Respuestas de formulario 1#R66
+CLI-00122,Johanna Fernandez,849-437-0703,402-32364336-0,SAN PEDRO DE MACORIS,Tienda De Ropa,Rances Ivan,2023-07-03,2023-07-03,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R143
+CLI-00123,Jasmin G. Payano V.,849-203-3181,402-3409785-1,HIGUEY,Tienda Divas,Rachell Ivette,2023-07-05,2023-07-05,1,3800.0,3800.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R226
+CLI-00124,Génesis Torres,8096941277,40234180624,PUNTA CANA,Plaza meeting Point Of. Tasaciones Comerciales,Rances Ivan,2023-08-31,2023-08-31,1,4500.0,3000.0,1500.0,Registro de ventas.xlsx::Respuestas de formulario 1#R102
+CLI-00125,Jeannette de la Cruz,8292498601,40234275119,HIGUEY,Plaza Tavera Center cafetería,Rances Ivan,2023-08-02,2023-08-02,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R49
+CLI-00126,Yelisa Santana,829-775-2802,402-345764-4,FRIUSA,Comoma Labanderia,Rachell Ivette,2023-07-06,2023-07-06,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R233
+CLI-00127,Marcia Reyes,849-206-8288,402-3646948-8,SAN PEDRO DE MACORIS,Helados Artesanales Doña Sonia,Rances Ivan,2023-07-03,2023-07-03,1,3800.0,0.0,3800.0,Registro de ventas.xlsx::Respuestas de formulario 1#R144
+CLI-00128,Claudio de León,8294011736,40237482159,LA ROMANA,Papeleria,Rances Ivan,2023-08-29,2023-08-29,1,4500.0,0.0,4500.0,Registro de ventas.xlsx::Respuestas de formulario 1#R87
+CLI-00129,Chantal Miliano,849-447-8682,402-3753875-2,FRIUSA,Tienda Aquamenta,Rachell Ivette,2023-07-06,2023-07-06,1,3800.0,0.0,3800.0,Registro de ventas.xlsx::Respuestas de formulario 1#R238
+CLI-00130,Junice Guerrero,829-934-3855,402-3869227-7,LA ROMANA,Party Fiestas,Rachell Ivette,2023-07-04,2023-07-04,1,3800.0,2200.0,1600.0,Registro de ventas.xlsx::Respuestas de formulario 1#R169
+CLI-00131,Yisairiz Diaz,829-937-7637,402-3899275-8,HIGUEY,Casa de cambio Quezada,Rances Ivan,2023-07-05,2023-07-05,1,3800.0,2000.0,1800.0,Registro de ventas.xlsx::Respuestas de formulario 1#R214
+CLI-00132,Lobely Cuello,8295560144,40239298777,PUNTA CANA,,Grissell A.,2023-07-20,2023-07-20,1,3800.0,3800.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R34
+CLI-00133,Mayelin De Aza,829-479-4169,402-4027048-4,LA ROMANA,Banca Loteka / c. Abreu.,Rances Ivan,2023-07-04,2023-07-04,1,3800.0,1900.0,1900.0,Registro de ventas.xlsx::Respuestas de formulario 1#R187
+CLI-00134,Betty De Los Santos,8087655332,40240449260,HIGUEY,Villa cerro,Rances Ivan,2023-08-16,2023-08-16,1,3500.0,0.0,3500.0,Registro de ventas.xlsx::Respuestas de formulario 1#R77
+CLI-00135,Yenifer Diaz,8292774838,40240747002,HIGUEY,Mel Cafe,Grissell A.,2023-07-19,2023-07-19,1,4500.0,3000.0,1500.0,Registro de ventas.xlsx::Respuestas de formulario 1#R24
+CLI-00136,Vivian Lopez,829-233-0296,402-4108769-7,LA ROMANA,Tienda Rosalia C/ vista Hermosa,Rances Ivan,2023-07-04,2023-07-04,1,3800.0,1900.0,1900.0,Registro de ventas.xlsx::Respuestas de formulario 1#R163
+CLI-00137,Camila Jiménez,8093568313,40243123730,PUNTA CANA,Pollos Victorina,Rachell Ivette,2023-08-17,2023-08-17,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R80
+CLI-00138,Ingrid Morla,8292046674,40243348394,SAN PEDRO DE MACORIS,Banca Star Sport,Rances Ivan,2023-07-17,2023-07-17,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R5
+CLI-00139,Yulay Rosario,829-370-7057,402-4337760-9,PUNTA CANA,Colmado Bomba Friuza,Rances Ivan,2023-07-07,2023-07-07,1,4500.0,0.0,4500.0,Registro de ventas.xlsx::Respuestas de formulario 1#R261
+CLI-00140,Daniela Nuñez,849-264-1825,402-45447-7,HIGUEY,C/ Villa Cerro Box Pac,Rances Ivan,2023-07-05,2023-07-05,1,4500.0,500.0,4000.0,Registro de ventas.xlsx::Respuestas de formulario 1#R222
+CLI-00141,Chary Nuñez,849-409-3356,402-464871-7,HIGUEY,Eventos Isabella,Grissell A.,2023-07-05,2023-07-05,1,4500.0,0.0,4500.0,Registro de ventas.xlsx::Respuestas de formulario 1#R205
+CLI-00142,Yenifer Rosario,802-840-9795,402-4788200-7,LA ROMANA,Helados BON,Rachell Ivette,2023-07-04,2023-07-04,1,4500.0,3000.0,1500.0,Registro de ventas.xlsx::Respuestas de formulario 1#R182
+CLI-00143,Paloma Ueiler,829-966-8704,402-4788495-6,PUNTA CANA,Tienda Que?,Rachell Ivette,2023-07-07,2023-07-07,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R260
+CLI-00144,Darlin Gonzalez,8297471403,402510033401,SAN PEDRO DE MACORIS,Barra Payan,Grissell A.,2023-07-17,2023-07-17,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R8
+CLI-00145,Cliente legado 43169,,,,,5,2023-05-15,2023-05-15,1,10993.0,7000.0,3993.0,Grissuply.xlsx::Ventas#R3
+CLI-00146,Cliente legado 444,,,,,7,2023-05-20,2023-05-20,1,14393.0,0.0,0.0,Grissuply.xlsx::Ventas#R4
+CLI-00147,Cliente legado 7,,,,,7,2023-05-15,2023-05-15,1,15193.0,5000.0,10193.0,Grissuply.xlsx::Ventas#R5
+CLI-00148,Hamsu Gonzales,,,PUNTA CANA,Plaza Paseo,Grissell A.,2023-07-07,2023-07-07,1,6200.0,6200.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R264
+CLI-00149,Jazmin Rijo,,,HIGUEY,Tienda de Celulares,Rachell Ivette,2023-09-06,2023-09-06,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R126
+CLI-00150,Juan Perez,5560,,SANTO DOMINGO,,40744.6873736333,,,0,0.0,0.0,0.0,Grissuply.xlsx::Clientes#R2
+CLI-00151,Lidia,,,HIGUEY,Comedor Prox. Multiplaza,Grissell A.,2023-07-05,2023-07-05,1,3800.0,2300.0,1500.0,Registro de ventas.xlsx::Respuestas de formulario 1#R224
+CLI-00152,Marcos paredes,5556,,SANTO DOMINGO,,40745,,,0,0.0,0.0,0.0,Grissuply.xlsx::Clientes#R3
+CLI-00153,Jazmín cruz,8092042476,,PUNTA CANA,Blue mall moustache,Rachell Ivette,2023-08-04,2023-08-04,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R54
+CLI-00154,Noelia Encarnacion,809-250-2172,,PUNTA CANA,Caribe Expres,Rances Ivan,2023-07-07,2023-07-07,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R271
+CLI-00155,Pétalo Peña,8092587956,,HIGUEY,Bufete de Abogados,Rachell Ivette,2023-08-30,2023-08-30,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R98
+CLI-00156,Alba Bonilla,809-302-5090,,LA ROMANA,Cafeteria,Rachell Ivette,2023-07-04,2023-07-04,1,3800.0,1500.0,2300.0,Registro de ventas.xlsx::Respuestas de formulario 1#R197
+CLI-00157,Beatriz,809-352-0333,,FRIUSA,Centro de Uñas,Rances Ivan,2023-07-06,2023-07-06,1,4500.0,2500.0,2000.0,Registro de ventas.xlsx::Respuestas de formulario 1#R249
+CLI-00158,Yenifer Medina,809-357-1911,,SAN PEDRO DE MACORIS,Tienda Pretty Store,Rachell Ivette,2023-07-03,2023-07-03,1,4500.0,2000.0,2500.0,Registro de ventas.xlsx::Respuestas de formulario 1#R127
+CLI-00159,Chorlenis Fabian,809-389-2114,,FRIUSA,"Cafeteria, Proximo a Banca Jeova Rafa",Rances Ivan,2023-07-06,2023-07-06,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R247
+CLI-00160,Scarlyn del Rosario,8094014852,,LA ROMANA,Jumbo viva,Rachell Ivette,2023-08-01,2023-08-01,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R48
+CLI-00161,Eugenia Rodriguez,809-402-7846,,LA ROMANA,Party fiestas JUMBO,Rachell Ivette,2023-07-04,2023-07-04,1,3500.0,2500.0,1000.0,Registro de ventas.xlsx::Respuestas de formulario 1#R196
+CLI-00162,Dailin Richarson,8094037526,,SAN PEDRO DE MACORIS,Obtica,Rachell Ivette,2023-07-31,2023-07-31,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R41
+CLI-00163,Erna Maldonado,8094094410,,SAN PEDRO DE MACORIS,Don Lolo,Rachell Ivette,2023-07-17,2023-07-17,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R3
+CLI-00164,Daury Ester Rodriguez,809-423-3527,,LA ROMANA,Quesos y Dulces / Prox. Jumbo,Rachell Ivette,2023-07-04,2023-07-04,1,3500.0,0.0,3500.0,Registro de ventas.xlsx::Respuestas de formulario 1#R193
+CLI-00165,Carolina Herrera,809-424-3317,,HIGUEY,Cafeteria Prox. Banco Reserva,Rances Ivan,2023-07-05,2023-07-05,1,3800.0,1900.0,1900.0,Registro de ventas.xlsx::Respuestas de formulario 1#R200
+CLI-00166,Dominga D Castro,809-439-0659,,PUNTA CANA,Plaza Downtown,Rachell Ivette,2023-07-07,2023-07-07,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R274
+CLI-00167,Norquelis Fernandez,809-442-0359,,FRIUSA,Floristeria,Rachell Ivette,2023-07-06,2023-07-06,1,3800.0,2500.0,1300.0,Registro de ventas.xlsx::Respuestas de formulario 1#R237
+CLI-00168,Maribel Carcaño,809-452-0884,,SAN PEDRO DE MACORIS,VIVA,Rachell Ivette,2023-07-03,2023-07-03,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R139
+CLI-00169,Caroline Huqhes,8094540677,,LA ROMANA,Pica pollo,Rachell Ivette,2023-07-18,2023-07-18,1,4500.0,1500.0,3000.0,Registro de ventas.xlsx::Respuestas de formulario 1#R17
+CLI-00170,Tania Gil,809-459-8620,,LA ROMANA,Banca Dep.Juancito Sport,Rances Ivan,2023-07-04,2023-07-04,1,3800.0,3800.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R198
+CLI-00171,Santha Botello,809-464-7301,,LA ROMANA,Eventos al lado de Plaza Darinel,Grissell A.,2023-07-04,2023-07-04,1,3800.0,3800.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R173
+CLI-00172,Alexandra chalas,8094773143,,PUNTA CANA,KAKAW Blue mall,Rachell Ivette,2023-08-04,2023-08-04,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R55
+CLI-00173,Piter Reyes,8094858684,,BAVARO,Plaza Boulevard Center,Rances Ivan,2023-08-17,2023-08-17,1,3800.0,3800.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R85
+CLI-00174,Ana Pozo,809-490-9705,,SAN PEDRO DE MACORIS,Deposito Dental Del Este,Rachell Ivette,2023-07-03,2023-07-03,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R140
+CLI-00175,Milagros Santana,809-505-8264,,LA ROMANA,Leo Motors Prox. A Rosa muebles,Rances Ivan,2023-07-04,2023-07-04,1,3800.0,3800.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R178
+CLI-00176,Yajaira Rosario,809-507-2979,,SAN PEDRO DE MACORIS,Cafeteria Parada de Guagua,Rachell Ivette,2023-07-03,2023-07-03,1,3800.0,0.0,3800.0,Registro de ventas.xlsx::Respuestas de formulario 1#R137
+CLI-00177,Osyerleni Veraza,809-602-3375,,PUNTA CANA,Banca de Pelota,Grissell A.,2023-07-07,2023-07-07,1,4500.0,0.0,4500.0,Registro de ventas.xlsx::Respuestas de formulario 1#R262
+CLI-00178,Fermina Morla,809-659-3074,,SAN PEDRO DE MACORIS,SEDE,Rachell Ivette,2023-07-03,2023-07-03,1,4500.0,2000.0,2500.0,Registro de ventas.xlsx::Respuestas de formulario 1#R142
+CLI-00179,Milly De Jesus,809-669-8811,,SAN PEDRO DE MACORIS,Comedor Boca Chica,Rances Ivan,2023-07-03,2023-07-03,1,3500.0,2600.0,900.0,Registro de ventas.xlsx::Respuestas de formulario 1#R133
+CLI-00180,Yasmín Ramos,8096775309,,PUNTA CANA,Plaza Roque Medic Service,Rachell Ivette,2023-08-31,2023-08-31,1,4500.0,0.0,4500.0,Registro de ventas.xlsx::Respuestas de formulario 1#R104
+CLI-00181,Raquel Morales,809-702-7566,,SAN PEDRO DE MACORIS,Importadora Oriental Ramirez,Rances Ivan,2023-07-03,2023-07-03,1,4500.0,2500.0,2000.0,Registro de ventas.xlsx::Respuestas de formulario 1#R138
+CLI-00182,Oneisy Rodríguez,8097030992,,BAVARO,Seam Dream 2 Ap.1C,Rachell Ivette,2033-07-20,2033-07-20,1,3800.0,3800.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R30
+CLI-00183,Milosy Sander,809-716-3505,,SAN PEDRO DE MACORIS,ASTER,Rachell Ivette,2023-07-03,2023-07-03,1,3800.0,0.0,3800.0,Registro de ventas.xlsx::Respuestas de formulario 1#R151
+CLI-00184,Stheisy Rodríguez,8097426576,,LA ROMANA,Of. De seguros,Rances Ivan,2023-08-01,2023-08-01,1,4500.0,2000.0,2500.0,Registro de ventas.xlsx::Respuestas de formulario 1#R45
+CLI-00185,Adainy Soler,8097429419,,HIGUEY,Rodriguez Comercial,Rances Ivan,2023-08-30,2023-08-30,1,4500.0,0.0,4500.0,Registro de ventas.xlsx::Respuestas de formulario 1#R92
+CLI-00186,Alejandra monero,809-761-1871,,SAN PEDRO DE MACORIS,Salon Rosali,Rances Ivan,2023-07-03,2023-07-03,1,4200.0,4200.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R154
+CLI-00187,Ana luisa,809-765-1659,,PUNTA CANA,Plaza Cana town,Rachell Ivette,2023-07-07,2023-07-07,1,3800.0,3800.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R275
+CLI-00188,Hanny Tapia,8097689604,,LA ROMANA,Tienda Variedades Marley,Rachell Ivette,2023-08-01,2023-08-01,1,3900.0,3900.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R46
+CLI-00189,Sachenka De La Cruz,809-772-3487,,SAN PEDRO DE MACORIS,Cafeteria,Rances Ivan,2023-07-03,2023-07-03,1,3800.0,1900.0,1900.0,Registro de ventas.xlsx::Respuestas de formulario 1#R132
+CLI-00190,Rosanna Carpio,809-798-3746,,HIGUEY,Tienda de cabello Prox. HOTEL COQUI,Rachell Ivette,2023-07-05,2023-07-05,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R231
+CLI-00191,Johanne Lundy,8097984607,PP4773396,PUNTA CANA,Noly tours travel,Rances Ivan,2023-08-17,2023-08-17,1,4500.0,2250.0,2250.0,Registro de ventas.xlsx::Respuestas de formulario 1#R83
+CLI-00192,Alexandra Lopez Rijo,809-798-7666,,LA ROMANA,Ferreteria,Rances Ivan,2023-07-04,2023-07-04,1,4500.0,1500.0,3000.0,Registro de ventas.xlsx::Respuestas de formulario 1#R161
+CLI-00193,Patricia Garcia,809-804-4820,,HIGUEY,Jade Teriyaqui / Multiplaza,Rachell Ivette,2023-07-05,2023-07-05,1,3800.0,3800.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R211
+CLI-00194,Marilin Vásquez,8098196824,,SAN PEDRO DE MACORIS,Don Lolo,Rachell Ivette,2023-08-14,2023-08-14,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R59
+CLI-00195,Danna Paola,809-838-7673,,HIGUEY,C/ Ramon Apumarol Eventos Isabella,Rachell Ivette,2023-07-05,2023-07-05,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R219
+CLI-00196,Estela Martinez,809-875-5758,,HIGUEY,Tienda de pacas,Rachell Ivette,2023-07-05,2023-07-05,1,4500.0,2800.0,1700.0,Registro de ventas.xlsx::Respuestas de formulario 1#R220
+CLI-00197,Dania Rodriguez,8098759843,,PUNTA CANA,Paca,Rances Ivan,2023-09-06,2023-09-06,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R123
+CLI-00198,Ximary Castro,8098799930,,HIGUEY,Smarfon,Rachell Ivette,2023-08-30,2023-08-30,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R97
+CLI-00199,Luzeny Santana,809-902-8989,,HIGUEY,En su Casa,Rachell Ivette,2023-07-05,2023-07-05,1,3800.0,3800.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R232
+CLI-00200,Eilianis Gonzales,809-943-0170,L661484,PUNTA CANA,"Tienda Lush, Plaza San Juan",Rances Ivan,2023-07-07,2023-07-07,1,3500.0,3500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R255
+CLI-00201,Simón Radacheca,8099523863,A7202160,BAVARO,Los corales,Rances Ivan,2023-07-20,2023-08-04,2,9000.0,9000.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R29; Registro de ventas.xlsx::Respuestas de formulario 1#R58
+CLI-00202,Acuarela Nolasco,809-974-8315,,PUNTA CANA,Caribe Expres,Grissell A.,2023-07-07,2023-07-07,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R284
+CLI-00203,Ángela Hernández,8292181323,,SAN PEDRO DE MACORIS,Comedor De Jey todo caldo,Rachell Ivette,2023-07-31,2023-07-31,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R42
+CLI-00204,Yuliver Calcaño,8292613276,,SAN PEDRO DE MACORIS,Clínica del niño,Rances Ivan,2023-09-04,2023-09-04,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R113
+CLI-00205,Esmeralda Joseb,829-271-5585,,HIGUEY,C/ Don Martin Frutera,Rachell Ivette,2023-07-05,2023-07-05,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R230
+CLI-00206,Danilda,829-271-8338,,PUNTA CANA,C/ Veron,Grissell A.,2023-07-07,2023-07-07,1,3800.0,2000.0,1800.0,Registro de ventas.xlsx::Respuestas de formulario 1#R285
+CLI-00207,Carol,8292799005,,PUNTA CANA,Compraventa,Rachell Ivette,2023-08-17,2023-08-17,1,1000.0,1000.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R86
+CLI-00208,Nicaury Ogando,829-291-8830,,SAN PEDRO DE MACORIS,Salon,Rachell Ivette,2023-07-03,2023-07-03,1,4200.0,4200.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R129
+CLI-00209,Claudia García,8293278807,,LA ROMANA,Punto licores,Rachell Ivette,2023-08-29,2023-08-29,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R90
+CLI-00210,Johanna Nuñez,829-328-1333,,LA ROMANA,Sindicato,Rachell Ivette,2023-07-04,2023-07-04,1,3800.0,3800.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R165
+CLI-00211,Anny Arias,829-351-3462,,LA ROMANA,Dental Integral,Rachell Ivette,2023-07-04,2023-07-04,1,3800.0,3800.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R171
+CLI-00212,Anyela Rijo,829-391-5661,,LA ROMANA,Estetica Piel Y Silueta,Rachell Ivette,2023-07-04,2023-07-04,1,3800.0,3800.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R159
+CLI-00213,Lorena chalis,829-393-3471,,SAN PEDRO DE MACORIS,C/luis Amiama tio,Rachell Ivette,2023-07-03,2023-07-03,1,4500.0,2000.0,2500.0,Registro de ventas.xlsx::Respuestas de formulario 1#R128
+CLI-00214,Ana rosa Sonyu,829-399-7554,,LA ROMANA,Centro de Vacuna Inmunovav plaza Darinel,Grissell A.,2023-07-04,2023-07-04,1,4500.0,2500.0,2000.0,Registro de ventas.xlsx::Respuestas de formulario 1#R166
+CLI-00215,Dulce,8294268696,,HIGUEY,Comedor,Rances Ivan,2023-08-30,2023-08-30,1,4500.0,2200.0,2300.0,Registro de ventas.xlsx::Respuestas de formulario 1#R93
+CLI-00216,Herlinis Gonzalez,829-431-8542,,PUNTA CANA,Cruze de Veron,Rances Ivan,2023-07-07,2023-07-07,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R258
+CLI-00217,Florine Lamerique,829-454-4464,,LA ROMANA,Comedor Pica pollo Sazon Criollo,Rances Ivan,2023-07-04,2023-07-04,1,3800.0,1000.0,2800.0,Registro de ventas.xlsx::Respuestas de formulario 1#R170
+CLI-00218,Leída Rojas,8294562348,,BAVARO,,Rachell Ivette,2023-07-20,2023-07-20,1,2500.0,2500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R33
+CLI-00219,Adriana Jimenez,8294675137,,PUNTA CANA,Plaza Village Farmacia Pharmacana,Rachell Ivette,2023-08-31,2023-08-31,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R105
+CLI-00220,Keisy Massiel Paula,829-467-8627,,SAN PEDRO DE MACORIS,C/La Fortalesa,Rances Ivan,2023-07-03,2023-07-03,1,3500.0,3500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R157
+CLI-00221,Maudelin Martinez,829-477-7562,,FRIUSA,Casa de Cambio Prox. Boulevard Center,Rachell Ivette,2023-07-06,2023-07-06,1,3800.0,3800.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R241
+CLI-00222,Jenny Olivier,8294792954,,LA ROMANA,Multiplaza tienda blue country,Rachell Ivette,2023-08-01,2023-08-01,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R47
+CLI-00223,Teresa Rivera,(8294795149,,LA ROMANA,Moto préstamo Poli,Rachell Ivette,2023-08-29,2023-08-29,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R89
+CLI-00224,Violene Joseph,829-499-6109,,PUNTA CANA,"C/ Gloria, Plaza Nueva Tienda de Ropa",Grissell A.,2023-07-07,2023-07-07,1,4000.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R263
+CLI-00225,Terenary,829-502-6778,,FRIUSA,Cafeteria los Socios,Rachell Ivette,2023-07-06,2023-07-06,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R248
+CLI-00226,Estefany Pie,8295196274,,HIGUEY,Pizeria,Rances Ivan,2023-08-30,2023-08-30,1,4500.0,1000.0,3500.0,Registro de ventas.xlsx::Respuestas de formulario 1#R91
+CLI-00227,Marie Geneus Gardens,829-524-6982,R1039365,HIGUEY,Hotel ATILA,Rachell Ivette,2023-07-05,2023-07-05,1,3800.0,3800.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R206
+CLI-00228,Josefina Andujar,829-531-5761,,PUNTA CANA,Pueblo Bavaro prox. al Ole,Rachell Ivette,2023-07-07,2023-08-17,2,18400.0,4000.0,14400.0,Registro de ventas.xlsx::Respuestas de formulario 1#R267; Registro de ventas.xlsx::Respuestas de formulario 1#R81
+CLI-00229,Lorena de los Santos,8295322915,,LA ROMANA,Farmacentro,Rachell Ivette,2023-08-15,2023-08-15,1,5100.0,5100.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R68
+CLI-00230,Marielys Ramírez,8295500414,,SAN PEDRO DE MACORIS,Repuesto,Rachell Ivette,2023-09-04,2023-09-04,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R109
+CLI-00231,Criselda,829-620-6395,,PUNTA CANA,C/ Veron,Grissell A.,2023-07-07,2023-07-07,1,4500.0,2000.0,2500.0,Registro de ventas.xlsx::Respuestas de formulario 1#R283
+CLI-00232,Sonia zorrillo,8296398351,,LA ROMANA,Restaurante Little,Rachell Ivette,2023-09-05,2023-09-05,1,4500.0,2000.0,2500.0,Registro de ventas.xlsx::Respuestas de formulario 1#R118
+CLI-00233,Darihana Sánchez,8296466808,,SAN PEDRO DE MACORIS,C/ luis Amiamatio restaurant Loren D’ pasta,Rances Ivan,2023-07-31,2023-07-31,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R37
+CLI-00234,Dahianna Sánchez,8296466809,,SAN PEDRO DE MACORIS,C/ Luia Aminiamatio Restaurant Loren D’ Pasta,Rances Ivan,2023-07-31,2023-07-31,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R38
+CLI-00235,Nety Cordero,829-649-7809,,HIGUEY,C/ Willians Motilla,Rachell Ivette,2023-07-05,2023-07-05,1,3800.0,1500.0,2300.0,Registro de ventas.xlsx::Respuestas de formulario 1#R199
+CLI-00236,Ruth Rodriguez,8296589827,,LA ROMANA,,Rachell Ivette,2023-09-05,2023-09-05,1,800.0,800.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R119
+CLI-00237,Mayi Calderon,829-671-9316,,FRIUSA,Lavanderia Plaza Vimenca,Rachell Ivette,2023-07-06,2023-07-06,1,3900.0,0.0,3900.0,Registro de ventas.xlsx::Respuestas de formulario 1#R242
+CLI-00238,Patricia Ruiz,8296843873,,HIGUEY,GYM PLAZA TAVERA CENTER,Rachell Ivette,2023-08-30,2023-08-30,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R99
+CLI-00239,Manuela Ramirez,829-694-8912,,HIGUEY,Sandalias Crots,Grissell A.,2023-07-05,2023-07-05,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R225
+CLI-00240,Karen Guerrero,829-699-6477,,LA ROMANA,Salon Prox. IBERIA,Grissell A.,2023-07-04,2023-07-04,1,3800.0,2000.0,1800.0,Registro de ventas.xlsx::Respuestas de formulario 1#R174
+CLI-00241,Marisol Fabian,829-701-3668,,LA ROMANA,Salon Marisol,Rachell Ivette,2023-07-04,2023-09-05,2,9000.0,7500.0,1500.0,Registro de ventas.xlsx::Respuestas de formulario 1#R160; Registro de ventas.xlsx::Respuestas de formulario 1#R120
+CLI-00242,Maria Sanchez,8297028112,,HIGUEY,D’ Carlos Empanada,Rachell Ivette,2023-08-30,2023-08-30,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R96
+CLI-00243,Vanessa Escobar,829-709-4550,,PUNTA CANA,"Veterinaria, Plaza Cana Taun",Rachell Ivette,2023-07-07,2023-07-07,1,3300.0,3300.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R257
+CLI-00244,Elizabet mercedes,829-740-1412,,PUNTA CANA,Plaza Village,Rachell Ivette,2023-07-07,2023-07-07,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R279
+CLI-00245,Yasmeiry Ramirez,829-751-7307,,LA ROMANA,Banca Dep. / Plaza Sajoma III,Rances Ivan,2023-07-04,2023-07-04,1,4500.0,2200.0,2300.0,Registro de ventas.xlsx::Respuestas de formulario 1#R186
+CLI-00246,Esmeralda Marte,829-754-7186,,LA ROMANA,Agencia de Viajes Napolis,Grissell A.,2023-07-04,2023-07-04,1,4500.0,2300.0,2200.0,Registro de ventas.xlsx::Respuestas de formulario 1#R168
+CLI-00247,Alexandra Yenefer Cruz,829-766-0377,,PUNTA CANA,Blue Mall,Rachell Ivette,2023-07-07,2023-07-07,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R280
+CLI-00248,Kileidy perez,8297692147,,HIGUEY,Akies pacas,Rachell Ivette,2023-08-16,2023-08-16,1,4200.0,4200.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R75
+CLI-00249,Nury Familia,829-771-7977,,PUNTA CANA,Tienda Que?,Rachell Ivette,2023-07-07,2023-07-07,1,4500.0,1000.0,3500.0,Registro de ventas.xlsx::Respuestas de formulario 1#R259
+CLI-00250,Alejandra De Jesus,829-778-9055,,HIGUEY,Carnes y pescados Mar y Tierra,Rances Ivan,2023-07-05,2023-07-05,1,4500.0,3500.0,1000.0,Registro de ventas.xlsx::Respuestas de formulario 1#R216
+CLI-00251,Nelsis Santana,829-803-6069,,LA ROMANA,Carwash Por Plaza Lama,Rachell Ivette,2023-07-04,2023-07-04,1,3800.0,0.0,3800.0,Registro de ventas.xlsx::Respuestas de formulario 1#R158
+CLI-00252,Raisa Jerbu,829-835-3402,,SAN PEDRO DE MACORIS,Barra Payan,Rachell Ivette,2023-07-03,2023-07-03,1,4500.0,2000.0,2500.0,Registro de ventas.xlsx::Respuestas de formulario 1#R135
+CLI-00253,Maria muños,829-852-8772,,FRIUSA,Plaza Riveras Salon,Rances Ivan,2023-07-06,2023-07-06,1,3800.0,3800.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R240
+CLI-00254,Aura Labega,829-866-8819,,LA ROMANA,Inmobiliaria,Rances Ivan,2023-07-04,2023-07-04,1,700.0,700.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R167
+CLI-00255,Sheyla Ortega,829-887-6211,,FRIUSA,D Morales Parrilladas,Grissell A.,2023-07-06,2023-07-06,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R236
+CLI-00256,Kirsy Martinez,829-924-4707,,PUNTA CANA,Wilmor Joyeria Blue Mall,Rachell Ivette,2023-07-07,2023-07-07,1,16400.0,600.0,15800.0,Registro de ventas.xlsx::Respuestas de formulario 1#R268
+CLI-00257,Mirlene Toussaint,8299329133,,HIGUEY,Tabacalera,Rachell Ivette,2023-08-16,2023-08-16,1,4500.0,2000.0,2500.0,Registro de ventas.xlsx::Respuestas de formulario 1#R74
+CLI-00258,Nestarlyn Baez,829-957-9555,,FRIUSA,Restaurante Comoma,Grissell A.,2023-07-06,2023-07-06,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R235
+CLI-00259,Lisette De la Cruz,829-969-9737,,PUNTA CANA,Plaza Arresife,Grissell A.,2023-07-07,2023-07-07,1,4500.0,2250.0,2250.0,Registro de ventas.xlsx::Respuestas de formulario 1#R277
+CLI-00260,Paulina Ventura,829-977-9099,,HIGUEY,Ofi. Arquitectos y A grimensores,Rances Ivan,2023-07-05,2023-07-05,2,9000.0,6500.0,2500.0,Registro de ventas.xlsx::Respuestas de formulario 1#R207; Registro de ventas.xlsx::Respuestas de formulario 1#R208
+CLI-00261,Nardelys Marquez,8492744044,,SAN PEDRO DE MACORIS,Don Lolo,Rachell Ivette,2023-08-14,2023-08-14,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R60
+CLI-00262,Kaselis Pallano,8492780585,,PUNTA CANA,Blue mall Tienda Hackett,Rances Ivan,2023-08-31,2023-08-31,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R103
+CLI-00263,Jhoanna,849-283-4883,,FRIUSA,Plaza Boulevard Center,Rances Ivan,2023-07-06,2023-07-06,1,3800.0,3800.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R252
+CLI-00264,Jancarlos Mejia,849- 285-9938,,PUNTA CANA,Plaza Cana town Veterinaria,Rachell Ivette,2023-07-07,2023-07-07,1,2100.0,2100.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R276
+CLI-00265,Issa Reyes,8493406189,,SAN PEDRO DE MACORIS,Comedor Belkis,Rances Ivan,2023-09-04,2023-09-04,1,4500.0,0.0,4500.0,Registro de ventas.xlsx::Respuestas de formulario 1#R112
+CLI-00266,Wanda Jimenez,8493531505,,PUNTA CANA,Jumbo Plaza Down Toun,Rachell Ivette,2023-08-31,2023-08-31,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R106
+CLI-00267,Dailys valera,8493591355,,PUNTA CANA,Los Socios,Rachell Ivette,2023-08-04,2023-08-04,1,3800.0,3800.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R53
+CLI-00268,Katherine Gomez Santos,849-392-3825,,PUNTA CANA,Colmado y Cafeteria,Rances Ivan,2023-07-07,2023-07-07,1,4500.0,2000.0,2500.0,Registro de ventas.xlsx::Respuestas de formulario 1#R254
+CLI-00269,Maria Brito,849-397-6608,,FRIUSA,Restaurante mexicano los patrones,Rachell Ivette,2023-07-06,2023-07-06,1,4500.0,0.0,4500.0,Registro de ventas.xlsx::Respuestas de formulario 1#R234
+CLI-00270,Iris Garcia,8494071429,,LA ROMANA,Motoprestmo poli,Rachell Ivette,2023-08-15,2023-08-15,1,4500.0,1000.0,3500.0,Registro de ventas.xlsx::Respuestas de formulario 1#R67
+CLI-00271,Marsia Rijo,849-408-2389,,HIGUEY,Banco Fihogar,Rachell Ivette,2023-07-05,2023-07-05,1,2800.0,2800.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R201
+CLI-00272,Genecis Encarnacion,849-438-1875,,LA ROMANA,True Gelato,Rachell Ivette,2023-07-04,2023-07-04,1,4500.0,2000.0,2500.0,Registro de ventas.xlsx::Respuestas de formulario 1#R175
+CLI-00273,Landy Amador,849-449-3790,,LA ROMANA,Licoeria La Hoz,Rances Ivan,2023-07-04,2023-07-04,1,3800.0,2000.0,1800.0,Registro de ventas.xlsx::Respuestas de formulario 1#R184
+CLI-00274,Marlen Martinez,849-453-4212,,LA ROMANA,Variedades Marley / Frente a Casa Rosandra,Rachell Ivette,2023-07-04,2023-07-04,1,3700.0,3000.0,700.0,Registro de ventas.xlsx::Respuestas de formulario 1#R194
+CLI-00275,Sarah De Oleo,8494575270,,HIGUEY,Claro,Rachell Ivette,2023-08-30,2023-08-30,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R100
+CLI-00276,Isabela Martín,8494583733,,PUNTA CANA,Plaza Roque Of. Zona Limpia,Rances Ivan,2023-08-31,2023-08-31,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R101
+CLI-00277,Fabiola,849-658-8865,,LA ROMANA,GIM. / C. Abreu,Rances Ivan,2023-07-04,2023-07-04,1,3800.0,1000.0,2800.0,Registro de ventas.xlsx::Respuestas de formulario 1#R188
+CLI-00278,Staury,849-815-8193,,FRIUSA,Barbero Prox. Residencial ejecutivo,Rances Ivan,2023-07-06,2023-07-06,1,3800.0,1000.0,2800.0,Registro de ventas.xlsx::Respuestas de formulario 1#R244
+CLI-00279,Carmen Molina,8498568633,,SAN PEDRO DE MACORIS,Don Lolo,Rachell Ivette,2023-09-04,2023-09-04,1,4500.0,0.0,4500.0,Registro de ventas.xlsx::Respuestas de formulario 1#R110
+CLI-00280,Noemi Hernández,8498789942,,LA ROMANA,Jumbo,Rachell Ivette,2023-09-05,2023-09-05,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R121
+CLI-00281,Aida Cedeño,849-885-3003,,LA ROMANA,Dental Integral,Rachell Ivette,2023-07-04,2023-07-04,1,4500.0,4500.0,0.0,Registro de ventas.xlsx::Respuestas de formulario 1#R195

@@ -1,9 +1,9 @@
 export const brand = {
-  productName: "Luma Estate OS",
+  productName: "Luma Route OS",
   parentBrand: "Luma Premium",
-  workspaceName: "Vista del Río",
+  workspaceName: "DB Capilar",
   tagline:
-    "Sistema comercial inmobiliario para captación, seguimiento y cierre.",
+    "Sistema comercial para rutas capilares, lineas, promotores y cobros.",
   description:
-    "Infraestructura comercial inmobiliaria para captar, organizar, medir y convertir prospectos de alto valor.",
+    "Infraestructura operativa para organizar ventas por linea, entregas, saldos pendientes y promotores.",
 };

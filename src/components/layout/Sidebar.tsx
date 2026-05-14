@@ -3,11 +3,11 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import {
-  Building,
-  Calendar,
+  ClipboardList,
   DollarSign,
-  KanbanSquare,
   LayoutDashboard,
+  Map,
+  Truck,
   Users,
   X,
 } from "lucide-react";
@@ -16,11 +16,11 @@ import { cn } from "@/lib/utils";
 
 const navigation = [
   { name: "Panel", href: "/", icon: LayoutDashboard },
-  { name: "Leads", href: "/leads", icon: Users },
-  { name: "Propiedades", href: "/propiedades", icon: Building },
-  { name: "Visitas", href: "/visitas", icon: Calendar },
-  { name: "Cierres", href: "/cierres", icon: DollarSign },
-  { name: "Pipeline", href: "/pipeline", icon: KanbanSquare },
+  { name: "Admin", href: "/admin", icon: ClipboardList },
+  { name: "Promotor", href: "/promotor", icon: Users },
+  { name: "Chofer", href: "/chofer", icon: Truck },
+  { name: "Cobrador", href: "/cobrador", icon: DollarSign },
+  { name: "Rutas", href: "/chofer", icon: Map },
 ];
 
 type SidebarProps = {
@@ -36,7 +36,7 @@ function SidebarContent({ onNavigate }: { onNavigate?: () => void }) {
       <div className="flex h-16 shrink-0 items-center border-b border-crm-line px-6">
         <div>
           <h1 className="text-sm font-bold uppercase tracking-[0.24em] text-crm-text">
-            LUMA <span className="text-crm-gold">ESTATE OS</span>
+            LUMA <span className="text-crm-gold">ROUTE OS</span>
           </h1>
           <p className="mt-1 text-[11px] font-medium text-crm-faint">
             by {brand.parentBrand}
@@ -92,9 +92,7 @@ function SidebarContent({ onNavigate }: { onNavigate?: () => void }) {
           </div>
           <div className="ml-3">
             <p className="text-sm font-medium text-crm-text">Marcos Hilario</p>
-            <p className="text-xs font-medium text-crm-faint">
-              Admin Comercial
-            </p>
+            <p className="text-xs font-medium text-crm-faint">Admin Capilar</p>
           </div>
         </div>
       </div>
@@ -113,14 +111,14 @@ export function Sidebar({ mobileOpen, onClose }: SidebarProps) {
         <div className="fixed inset-0 z-50 lg:hidden">
           <button
             type="button"
-            aria-label="Cerrar menú"
+            aria-label="Cerrar menu"
             className="absolute inset-0 bg-black/60"
             onClick={onClose}
           />
           <aside className="relative flex h-full w-72 max-w-[85vw] flex-col border-r border-crm-line bg-crm-bg2 shadow-2xl">
             <button
               type="button"
-              aria-label="Cerrar menú"
+              aria-label="Cerrar menu"
               onClick={onClose}
               className="absolute right-3 top-3 inline-flex h-9 w-9 items-center justify-center rounded-md border border-crm-line bg-crm-surface text-crm-muted transition-colors hover:bg-crm-surface2 hover:text-crm-text"
             >

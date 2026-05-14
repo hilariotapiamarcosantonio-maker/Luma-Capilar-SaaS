@@ -1,20 +1,18 @@
-# Luma Estate OS
+# Luma Route OS - DB Capilar
 
-by Luma Premium
+Panel operativo Next.js para rutas capilares, lineas vendidas, promotores,
+entregas y cuentas por cobrar.
 
-Sistema comercial inmobiliario para captación, seguimiento, atribución de campañas y cierre de prospectos.
+Fuente principal:
 
-Workspace actual: Vista del Río.
+- Google Sheet `Luma Route OS - DB Capilar`
+- Pestañas: `Inventario_Productos`, `Directorio_Clientes`,
+  `Ventas_y_Entregas`, `Cuentas_por_Cobrar`
 
-## Desarrollo
+Rutas activas:
 
-```bash
-npm run dev
-```
-
-Abrir `http://localhost:3000` o el puerto asignado por Next.js.
-
-## Despliegue
-
-El despliegue se hace desde GitHub hacia Vercel. Los pasos y variables de
-entorno estan documentados en `docs/08_DEPLOY_GITHUB_VERCEL.md`.
+- `/` - resumen financiero y operativo
+- `/admin` - tabla maestra de ventas y entregas
+- `/promotor` - rendimiento por promotor
+- `/chofer` - rutas y entregas por zona
+- `/cobrador` - cartera de cuentas por cobrar
